@@ -7,4 +7,5 @@
 ### Already one user existing. you can use following creds too ,  
 ### username :  test
 ### password : testDJ
-
+### Git ignoring empty dirs . so before test the code directories named  Images , test need to be created under ls-task/ .
+### 
