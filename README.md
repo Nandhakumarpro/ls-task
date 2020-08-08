@@ -4,7 +4,7 @@
 ### login page will pop up at the end of signup
 ### if login successful user upload images page will be redirected
 
-### Already one user existing you can use this also 
+### Already one user existing. you can use following creds too ,  
 ### username :  test
 ### password : testDJ
 
