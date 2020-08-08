@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block title %}
+    <title>Image-Upload</title>
+{% endblock %}
+{% block content %}
+{% if messages %}
+    {% for message in messages %}
+        {{ message }}
+    {% endfor %}
+{% endif %}
+<div style="position:absolute ; top:100px" >
+    <h3>Image Upload Page</h3>
+    <form  method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p}}
+        <input type="submit" name="save">
+    </form>
+
+</div>
+{% endblock %}
